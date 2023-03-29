@@ -1,0 +1,16 @@
+#cloud-config
+# upgrade system
+package_update: true
+package_upgrade: true
+
+
+
+#install needed packages
+packages:
+ - nodejs
+ - npm
+
+# runs commands, but only on first boot
+runcmd:
+ - sudo su - ubuntu -c "git clone https://github.com/hereIsLucas/zooapp"
+ - sudo su - ubuntu -c "cd zooapp && npm install && npm start"
