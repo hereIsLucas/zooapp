@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #93B7B5;
+}
+
+h1 {
+  font-size: 24px;
+  font-style: italic;
 }
 
 .App-logo {
