@@ -1,6 +1,6 @@
-import './App.css';
+import '../App.css';
 
-function Datasafety() {
+export function Datasafety() {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +18,7 @@ function Datasafety() {
         <p>&nbsp;</p>
         <h2>Bearbeitung von Personendaten</h2>
         <p>Personendaten sind alle Angaben, die sich auf eine bestimmte oder bestimmbare Person beziehen. Eine betroffene Person ist eine Person, &uuml;ber die Personendaten bearbeitet werden. Bearbeiten umfasst jeden Umgang mit Personendaten, unabh&auml;ngig von den angewandten Mitteln und Verfahren, insbesondere das Aufbewahren, Bekanntgeben, Beschaffen, L&ouml;schen, Speichern, Ver&auml;ndern, Vernichten und Verwenden von Personendaten.</p>
-        <p>Wir bearbeiten Personendaten im Einklang mit dem schweizerischen Datenschutzrecht. Im &Uuml;brigen bearbeiten wir – soweit und sofern die EU-DSGVO anwendbar ist – Personendaten gem&auml;ss folgenden Rechtsgrundlagen im Zusammenhang mit Art. 6 Abs. 1 DSGVO<!--DSGVO-->:</p>
+        <p>Wir bearbeiten Personendaten im Einklang mit dem schweizerischen Datenschutzrecht. Im &Uuml;brigen bearbeiten wir – soweit und sofern die EU-DSGVO anwendbar ist – Personendaten gem&auml;ss folgenden Rechtsgrundlagen im Zusammenhang mit Art. 6 Abs. 1 DSGVO:</p>
         <ul>
           <li><strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO)</strong> - Die betroffene Person hat ihre Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten f&uuml;r einen spezifischen Zweck oder mehrere bestimmte Zwecke gegeben.</li>
           <li><strong>Vertragserf&uuml;llung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO)</strong> - Die Verarbeitung ist f&uuml;r die Erf&uuml;llung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchf&uuml;hrung vorvertraglicher Massnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen.</li>
@@ -77,4 +77,4 @@ function Datasafety() {
   );
 }
 
-export default Datasafety;
+
