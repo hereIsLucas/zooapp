@@ -1,0 +1,22 @@
+.Impressum {
+    text-align: center;
+    background-color: #93B7B5;
+  }
+  
+  h1 {
+    font-size: larger;
+  }
+
+ p {
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+}
+
+.Img {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+}
