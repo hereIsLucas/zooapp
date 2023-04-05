@@ -1,6 +1,6 @@
 import './App.css';
 import { Link, Route, Routes } from 'react-router-dom'
-import { Datasafety } from './pages/Datasafety';
+import { Datasafety } from './Pages/Datasafety';
 
 function App() {
   return (
