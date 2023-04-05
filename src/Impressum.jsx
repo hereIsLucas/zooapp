@@ -1,11 +1,16 @@
 import React from "react";
 import "./Impressum.css";
+import TeamBild from "./TeamBild.jpg";
 
 function Impressum() {
   return (
     <div>
       <div className="Impressum">
         <h1>Impressum</h1>
+      </div>
+
+      <div className="Img">
+        <img src={TeamBild} alt="Teamfoto" />
       </div>
 
       <div className="Inhalt">
